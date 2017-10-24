@@ -1,8 +1,5 @@
 language: node_js
 node_js:
-<<<<<<< HEAD
-  - "6"
-=======
   - "6"
 
 addons:
@@ -16,8 +13,7 @@ before_install:
 before_script:
 - "npm start &"
 
-script: 
+script:
 - "karma start karma.conf.js --single-run"
 - "PORT=8081 mocha test/server"
 - "nightwatch"
->>>>>>> 6502265bb9a75ca81620a509ed25695b6484cd6c
