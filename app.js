@@ -78,3 +78,4 @@ app.listen(port);
 console.log('Magic happens on port ' + port);
 
 module.exports = app;
+
